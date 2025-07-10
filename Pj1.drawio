@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0">
   <diagram name="Trang-1" id="tw38zZvBy860NS8b5UVZ">
-    <mxGraphModel dx="1040" dy="811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="841" dy="559" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,6 +73,73 @@
               <mxPoint x="236" y="234" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SWo0PViYhUQWHMr9vVby-16" target="SWo0PViYhUQWHMr9vVby-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-16" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="774" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SWo0PViYhUQWHMr9vVby-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="308" y="864" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="227" y="946" />
+              <mxPoint x="227" y="864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SWo0PViYhUQWHMr9vVby-18" target="SWo0PViYhUQWHMr9vVby-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-18" value="Task giám&amp;nbsp;&lt;div&gt;sát dữ liệu UART&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="246.75" y="884" width="122.5" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SWo0PViYhUQWHMr9vVby-21" target="SWo0PViYhUQWHMr9vVby-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-21" value="Task lấy thời gian thực" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SWo0PViYhUQWHMr9vVby-22" target="SWo0PViYhUQWHMr9vVby-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SWo0PViYhUQWHMr9vVby-22" target="SWo0PViYhUQWHMr9vVby-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-22" value="Task lấy GPS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247" y="1116" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SWo0PViYhUQWHMr9vVby-23" target="SWo0PViYhUQWHMr9vVby-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154" y="802.3793103448277" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="152" y="809" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-23" value="Bật Task thẻ nhớ và lưu dữ liệu vào SD card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="1116" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SWo0PViYhUQWHMr9vVby-27" target="SWo0PViYhUQWHMr9vVby-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="383" y="814" as="targetPoint" />
+            <mxPoint x="368" y="1237" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="359" y="1237" />
+              <mxPoint x="470" y="1237" />
+              <mxPoint x="470" y="814" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-27" value="Task Sim gửi dữ liệu lên Thingsboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-32" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1001" width="38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SWo0PViYhUQWHMr9vVby-33" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="903" width="33" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
